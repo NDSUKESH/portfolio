@@ -1,0 +1,67 @@
+.a{
+    color: whitesmoke;
+    font-family: 'Cinzel', serif;
+}
+.aa{
+  color: whitesmoke;
+  font-family: 'Rokkitt', serif;
+  left: 60%;
+}
+.typing-text h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    animation: typing 4s steps(500, end) infinite;
+  }
+  
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+.typing-text{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+}
+.footer {
+    position: fixed;
+    bottom: 10%;
+    background-color:none;
+    text-align: center;
+    left: 30%;
+  }
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color:none;
+  }
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+nav li {
+    float: right;
+  }
+  
+nav li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration:wavy;
+  }
+  
+
+
+   
